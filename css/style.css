@@ -804,12 +804,15 @@ h1 {
 .news h2 {
 	color: #fff;
         text-shadow: 50px 20px 4px #000000;
+		    font-size: 50px;
+			
 }
 
 .news article {
 	width: 50%;
 	float: left;
-	padding: 0 15px;
+	padding: 30 15px;
+	text-align:justify;
 }
 
 .news .pic {

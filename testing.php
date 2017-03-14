@@ -16,7 +16,7 @@
 	<section class="cd-hero" id="wrap">
 	 
 		<ul class="cd-hero-slider autoplay">
-			<li class="selected" style="background-image: url("images/main.jpg");">
+			<li class="selected" style="background-image: url('images/main.jpg')">
 				<div class="cd-full-width" >
 					<h2>Hero slider</h2>
 					<p>A simple, responsive slideshow in CSS &amp; jQuery.</p>
@@ -30,7 +30,7 @@
 					
 			</li>
 
-			<li>
+			<li style="background-image: url('images/Cam3-Image-02.jpg')">
 				<div class="cd-full-width">
 					<h2>Slide title here</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
@@ -41,7 +41,7 @@
 				
 			</li>
 
-			<li>
+			<li style="background-image: url('images/upload3.jpg')">
 				<div class="cd-full-width">
 					<h2>Slide title here</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
@@ -52,7 +52,7 @@
 				
 			</li>
 
-			<li>
+			<li style="background-image: url('images/upload5.png')">
 				<div class="cd-full-width">
 					<h2>Slide title here</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
@@ -61,7 +61,7 @@
 					
 				</div> <!-- .cd-full-width -->
 				
-			</li>
+			</li style="background-image: url('images/Cam3-Image-02.jpg')">
             
 			<li>
 				<div class="cd-full-width">
