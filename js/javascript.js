@@ -19,8 +19,10 @@ function textFunc() {
       msgCount++;
    }
 }
-
-
-
-
 timer1 = setInterval("textFunc()", 150); // Every 150 milliseconds
+
+$(".click").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".second").offset().top},
+        'slow');
+});

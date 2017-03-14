@@ -6,15 +6,23 @@
 	<title>PNC Cognitio School</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 	<link rel="stylesheet" media="all" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 <body>
 
-<header id="header">
+
+<?php
+ include('testing.php');
+?>				<section class="second">
+			<header id="header" class="navbar navbar-fixed-top">
             <div class="typewriter">
-                <h2 id="messageLabel" style="text-align:center;color: #7e8798;font-size: 60px;line-height: 46px;text-align: center;padding-bottom: 7px;">PNC COGNITIO SCHOOL</h2>
+                <h2 id="messageLabel" style="text-align:center;color: black;font-size: 50px;line-height: 46px;text-align: center;padding-bottom: 7px;">PNC COGNITIO SCHOOL</h2>
               </div>
 		<div class="container">
 			<a href="index.html" id="logo" title="PNC Cognito School"></a>
@@ -105,7 +113,7 @@
 		<div class="container">
 			<h2>Leadership</h2>
 			<article>
-				<div class="pic"><img src="images/Ramanji.jpg" alt=""></div>
+				<div class="pic"><img class="img-responsive" src="images/Ramanji.jpg" alt=""></div>
 				
 			</article>
 			<article>
@@ -256,7 +264,7 @@
 			</div>
 		</form>
 	</div>
-
+</section>
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script>window.jQuery || document.write("<script src='js/jquery-1.11.1.min.js'>\x3C/script>")</script>
 	<script src="js/plugins.js"></script>
